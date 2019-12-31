@@ -1,3 +1,5 @@
+wget -O thlaspi.fa.gz ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/956/625/GCA_000956625.1_T_arvense_v1/GCA_000956625.1_T_arvense_v1_genomic.fna.gz
+gunzip thlaspi.fa.gz
 
 # 1) Bismark 0.20.0 (bowtie 2.3.4.2)
 ${BISMARK_DIR}/bismark_genome_preparation --path_to_bowtie ${BOWTIE2_DIR} ${BENCHPATH}/thlaspi/genome/

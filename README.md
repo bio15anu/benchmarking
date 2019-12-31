@@ -26,7 +26,6 @@ export SAMTOOLS_DIR=/usr/local/samtools/1.9/binary/bin
 export RAZERS3_DIR=/usr/local/razers3/3.5.8/binary/bin
 export BISMARK_DIR=/usr/local/bismark/0.20.0/binary
 export BSSEEKR_DIR=/usr/local/bsseeker/2.1.5/binary
-export BSMOOTH_DIR=/usr/local/bsmooth/0.8.1/binary/bin
 export BWAMETH_DIR=/usr/local/bwameth/0.2.2/binary
 export ERNEBS5_DIR=/usr/local/erne/2.1.1/binary/bin
 export GEM3MAP_DIR=/usr/local/gem/3.6/binary/bin

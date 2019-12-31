@@ -1,3 +1,6 @@
+wget ftp://ftp.bioinfo.wsu.edu/species/Fragaria_vesca/Fvesca-genome.v4.0.a1/assembly/Fragaria_vesca_v4.0.a1.fasta.gz
+gunzip -c Fragaria_vesca_v4.0.a1.fasta.gz | sed -e 's/\r//g' | tr -s "\n" > fragaria.fa
+
 
 # 1) Bismark 0.20.0 (bowtie 2.3.4.2)
 ${BISMARK_DIR}/bismark_genome_preparation --path_to_bowtie ${BOWTIE2_DIR} ${BENCHPATH}/fragaria/genome/

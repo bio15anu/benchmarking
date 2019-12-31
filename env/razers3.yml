@@ -1,0 +1,12 @@
+name: razers3
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - bzip2=1.0.8=h516909a_2
+  - libgcc-ng=9.2.0=hdf63c60_0
+  - libstdcxx-ng=9.2.0=hdf63c60_0
+  - razers3=3.5.3=hb7ba0dd_3
+  - zlib=1.2.11=h516909a_1006
