@@ -1,0 +1,166 @@
+This is cutadapt 1.16 with Python 2.7.5
+Command line parameters: -a AGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT -A AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCT -q 20 -O 10 -m 100 -o 01x/simulated_1.clipped.fastq.gz -p 01x/simulated_2.clipped.fastq.gz 01x/simulated_1.fixed.fastq.gz 01x/simulated_2.fixed.fastq.gz
+Running on 1 core
+Trimming 2 adapters with at most 10.0% errors in paired-end mode ...
+Finished in 99.37 s (56 us/read; 1.06 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          1,760,000
+  Read 1 with adapter:                     214 (0.0%)
+  Read 2 with adapter:                  12,855 (0.7%)
+Pairs that were too short:              11,068 (0.6%)
+Pairs written (passing filters):     1,748,932 (99.4%)
+
+Total basepairs processed:   440,000,000 bp
+  Read 1:   220,000,000 bp
+  Read 2:   220,000,000 bp
+Quality-trimmed:              49,280,000 bp (11.2%)
+  Read 1:    24,640,000 bp
+  Read 2:    24,640,000 bp
+Total written (filtered):    388,242,972 bp (88.2%)
+  Read 1:   194,129,432 bp
+  Read 2:   194,113,540 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: AGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT; Type: regular 3'; Length: 59; Trimmed: 214 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5
+
+Bases preceding removed adapters:
+  A: 40.2%
+  C: 22.0%
+  G: 25.2%
+  T: 12.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	80	6.7	0	0 80
+10	86	1.7	1	0 86
+11	40	0.4	1	0 40
+12	7	0.1	1	0 7
+15	1	0.0	1	0 1
+
+=== Second read: Adapter 2 ===
+
+Sequence: AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCT; Type: regular 3'; Length: 59; Trimmed: 12855 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5
+
+Bases preceding removed adapters:
+  A: 30.4%
+  C: 19.8%
+  G: 19.3%
+  T: 30.2%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	612	6.7	0	0 612
+10	609	1.7	1	526 83
+11	574	0.4	1	527 47
+12	522	0.1	1	487 35
+13	496	0.0	1	462 34
+14	476	0.0	1	439 37
+15	446	0.0	1	421 25
+16	440	0.0	1	389 51
+17	437	0.0	1	403 34
+18	386	0.0	1	351 35
+19	365	0.0	1	331 31 3
+20	345	0.0	2	323 18 4
+21	353	0.0	2	326 24 3
+22	331	0.0	2	303 28
+23	306	0.0	2	278 26 2
+24	278	0.0	2	253 25
+25	283	0.0	2	266 15 2
+26	289	0.0	2	266 22 1
+27	278	0.0	2	260 15 3
+28	219	0.0	2	201 17 1
+29	247	0.0	2	224 22 1
+30	219	0.0	3	203 14 2
+31	225	0.0	3	209 16
+32	241	0.0	3	212 26 3
+33	204	0.0	3	189 14 1
+34	214	0.0	3	196 17 0 1
+35	189	0.0	3	170 19
+36	179	0.0	3	165 11 2 0 1
+37	148	0.0	3	135 12 1
+38	148	0.0	3	128 17 3
+39	163	0.0	3	148 13 1 0 1
+40	152	0.0	4	144 6 2
+41	127	0.0	4	118 7 1 1
+42	121	0.0	4	110 10 1
+43	117	0.0	4	107 8 1 0 1
+44	107	0.0	4	96 10 1
+45	105	0.0	4	96 5 1 3
+46	101	0.0	4	89 9 1 0 0 2
+47	99	0.0	4	92 7
+48	120	0.0	4	111 8 0 1
+49	77	0.0	4	66 7 1 2 1
+50	73	0.0	5	69 3 1
+51	79	0.0	5	69 10
+52	63	0.0	5	59 3 0 1
+53	75	0.0	5	65 9 0 1
+54	74	0.0	5	66 7 1
+55	68	0.0	5	60 7 0 1
+56	49	0.0	5	46 1 1 1
+57	45	0.0	5	41 4
+58	72	0.0	5	67 5
+59	54	0.0	5	50 4
+60	53	0.0	5	49 4
+61	49	0.0	5	46 3
+62	50	0.0	5	47 3
+63	37	0.0	5	36 1
+64	48	0.0	5	44 4
+65	33	0.0	5	30 3
+66	40	0.0	5	39 1
+67	19	0.0	5	17 2
+68	29	0.0	5	29
+69	33	0.0	5	32 1
+70	36	0.0	5	34 2
+71	15	0.0	5	15
+72	28	0.0	5	27 1
+73	15	0.0	5	15
+74	30	0.0	5	30
+75	26	0.0	5	25 1
+76	18	0.0	5	17 1
+77	18	0.0	5	18
+78	20	0.0	5	18 2
+79	21	0.0	5	20 1
+80	16	0.0	5	16
+81	12	0.0	5	12
+82	13	0.0	5	13
+83	14	0.0	5	14
+84	12	0.0	5	12
+85	8	0.0	5	8
+86	9	0.0	5	9
+87	8	0.0	5	8
+88	8	0.0	5	8
+89	5	0.0	5	5
+90	4	0.0	5	4
+91	8	0.0	5	8
+92	8	0.0	5	8
+93	9	0.0	5	9
+94	6	0.0	5	6
+95	1	0.0	5	1
+96	4	0.0	5	4
+97	8	0.0	5	8
+98	10	0.0	5	10
+99	7	0.0	5	7
+100	4	0.0	5	4
+101	1	0.0	5	1
+102	5	0.0	5	5
+103	5	0.0	5	5
+104	1	0.0	5	1
+105	4	0.0	5	4
+106	3	0.0	5	3
+107	3	0.0	5	3
+108	1	0.0	5	1
+109	3	0.0	5	3
+110	5	0.0	5	5
+111	32	0.0	5	31 1
+

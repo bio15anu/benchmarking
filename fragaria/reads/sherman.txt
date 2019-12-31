@@ -1,0 +1,5 @@
+cd 01x/ && ~/bin/sherman/Sherman -l 125 -n 1760000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/fragaria/genome &> sherman.log
+cd 05x/ && ~/bin/sherman/Sherman -l 125 -n 8800000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/fragaria/genome &> sherman.log
+cd 10x/ && ~/bin/sherman/Sherman -l 125 -n 17600000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/fragaria/genome &> sherman.log
+cd 15x/ && ~/bin/sherman/Sherman -l 125 -n 26400000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/fragaria/genome &> sherman.log
+cd 20x/ && ~/bin/sherman/Sherman -l 125 -n 35200000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/fragaria/genome &> sherman.log

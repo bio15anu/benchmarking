@@ -1,0 +1,173 @@
+Genome folder was specified as /scr/episan/RP03/benchmarking/fragaria/genome/
+
+Selected general parameters:
+----------------------------------------------------------------------------------------------------
+Paired-end reads selected. Fragment length will be 0-500 bp
+sequence length:	125 bp
+number of sequences being generated:	26400000
+
+Possible sources of contamination:
+----------------------------------------------------------------------------------------------------
+overall error rate:	0.5%
+
+Please note that the bisulfite conversion rate was selected as:	0 %
+This means that reads will not be converted at all and thus serve as simulated genomic FastQ sequences
+
+Introducing a variable length of adapter sequence into a proportion of all sequences
+assuming a normal distribution of fragment sizes with a mean fragment length (mu) of 250 (user-specified) and a variance (sigma) of 60 (fixed)
+
+
+Now reading in and storing sequence information of the genome specified in: /scr/episan/RP03/benchmarking/fragaria/genome/
+
+chr Fvb1 (24253023 bp)
+chr Fvb2 (29351230 bp)
+chr Fvb3 (38324302 bp)
+chr Fvb4 (33907851 bp)
+chr Fvb5 (29430145 bp)
+chr Fvb6 (39795230 bp)
+chr Fvb7 (24229589 bp)
+chr contig_1 (189641 bp)
+chr contig_10 (36047 bp)
+chr contig_11 (17781 bp)
+chr contig_12 (34985 bp)
+chr contig_13 (7797 bp)
+chr contig_14 (7279 bp)
+chr contig_15 (32896 bp)
+chr contig_16 (46644 bp)
+chr contig_17 (84250 bp)
+chr contig_18 (2270 bp)
+chr contig_19 (30301 bp)
+chr contig_2 (62991 bp)
+chr contig_20 (15787 bp)
+chr contig_21 (68915 bp)
+chr contig_22 (59418 bp)
+chr contig_3 (55196 bp)
+chr contig_4 (35372 bp)
+chr contig_5 (57535 bp)
+chr contig_6 (94701 bp)
+chr contig_7 (44566 bp)
+chr contig_8 (27009 bp)
+chr contig_9 (54563 bp)
+
+Generating quality values with a user defined decaying per-bp error rate of 0.5%
+Starting to work out the slope of the error curve
+Error rates per bp will be modelled according to the formula:
+default base quality - 0.034286*position[bp] + 0.0009263*(position[bp]**2)) - 0.00001*(position[bp]**3)*1.9909)
+
+Now generating random fragment sizes with a normal distribution (using the Marsaglia polar method)
+Mean fragment size (mu):	250	(user-specified)
+Variance (sigma):	60	(fixed)
+Generated 26400000 normally distributed random numbers
+
+250000 sequences generated so far
+500000 sequences generated so far
+750000 sequences generated so far
+1000000 sequences generated so far
+1250000 sequences generated so far
+1500000 sequences generated so far
+1750000 sequences generated so far
+2000000 sequences generated so far
+2250000 sequences generated so far
+2500000 sequences generated so far
+2750000 sequences generated so far
+3000000 sequences generated so far
+3250000 sequences generated so far
+3500000 sequences generated so far
+3750000 sequences generated so far
+4000000 sequences generated so far
+4250000 sequences generated so far
+4500000 sequences generated so far
+4750000 sequences generated so far
+5000000 sequences generated so far
+5250000 sequences generated so far
+5500000 sequences generated so far
+5750000 sequences generated so far
+6000000 sequences generated so far
+6250000 sequences generated so far
+6500000 sequences generated so far
+6750000 sequences generated so far
+7000000 sequences generated so far
+7250000 sequences generated so far
+7500000 sequences generated so far
+7750000 sequences generated so far
+8000000 sequences generated so far
+8250000 sequences generated so far
+8500000 sequences generated so far
+8750000 sequences generated so far
+9000000 sequences generated so far
+9250000 sequences generated so far
+9500000 sequences generated so far
+9750000 sequences generated so far
+10000000 sequences generated so far
+10250000 sequences generated so far
+10500000 sequences generated so far
+10750000 sequences generated so far
+11000000 sequences generated so far
+11250000 sequences generated so far
+11500000 sequences generated so far
+11750000 sequences generated so far
+12000000 sequences generated so far
+12250000 sequences generated so far
+12500000 sequences generated so far
+12750000 sequences generated so far
+13000000 sequences generated so far
+13250000 sequences generated so far
+13500000 sequences generated so far
+13750000 sequences generated so far
+14000000 sequences generated so far
+14250000 sequences generated so far
+14500000 sequences generated so far
+14750000 sequences generated so far
+15000000 sequences generated so far
+15250000 sequences generated so far
+15500000 sequences generated so far
+15750000 sequences generated so far
+16000000 sequences generated so far
+16250000 sequences generated so far
+16500000 sequences generated so far
+16750000 sequences generated so far
+17000000 sequences generated so far
+17250000 sequences generated so far
+17500000 sequences generated so far
+17750000 sequences generated so far
+18000000 sequences generated so far
+18250000 sequences generated so far
+18500000 sequences generated so far
+18750000 sequences generated so far
+19000000 sequences generated so far
+19250000 sequences generated so far
+19500000 sequences generated so far
+19750000 sequences generated so far
+20000000 sequences generated so far
+20250000 sequences generated so far
+20500000 sequences generated so far
+20750000 sequences generated so far
+21000000 sequences generated so far
+21250000 sequences generated so far
+21500000 sequences generated so far
+21750000 sequences generated so far
+22000000 sequences generated so far
+22250000 sequences generated so far
+22500000 sequences generated so far
+22750000 sequences generated so far
+23000000 sequences generated so far
+23250000 sequences generated so far
+23500000 sequences generated so far
+23750000 sequences generated so far
+24000000 sequences generated so far
+24250000 sequences generated so far
+24500000 sequences generated so far
+24750000 sequences generated so far
+25000000 sequences generated so far
+25250000 sequences generated so far
+25500000 sequences generated so far
+25750000 sequences generated so far
+26000000 sequences generated so far
+26250000 sequences generated so far
+
+Final report:
+----------------------------------------------------------------------------------------------------
+26400000 genomic sequences were successfully generated in total (+ strand: 13202786	 - strand: 13197214)
+No bisfulfite conversion performed
+512226 elements were smaller than the sequence length 126 (1.9%) and had some adapter sequence introduced
+Random sequencing errors introduced in total: 31502479 (of 6600000000 bp in total) (percentage: 0.48)

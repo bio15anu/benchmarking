@@ -1,0 +1,5 @@
+cd 01x/ && ~/bin/sherman/Sherman -l 125 -n 2744000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/thlaspi/genome &> sherman.log
+cd 05x/ && ~/bin/sherman/Sherman -l 125 -n 13720000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/thlaspi/genome &> sherman.log
+cd 10x/ && ~/bin/sherman/Sherman -l 125 -n 27440000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/thlaspi/genome &> sherman.log
+cd 15x/ && ~/bin/sherman/Sherman -l 125 -n 41160000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/thlaspi/genome &> sherman.log
+cd 20x/ && ~/bin/sherman/Sherman -l 125 -n 54880000 -pe -I 0 -X 500 -cr 0 -e 0.5 --variable_length_adapter 250 --genome_folder ${BENCHPATH}/thlaspi/genome &> sherman.log

@@ -1,0 +1,167 @@
+This is cutadapt 1.16 with Python 2.7.5
+Command line parameters: -a AGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT -A AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCT -q 20 -O 10 -m 100 -o 05x/simulated_1.clipped.fastq.gz -p 05x/simulated_2.clipped.fastq.gz 05x/simulated_1.fixed.fastq.gz 05x/simulated_2.fixed.fastq.gz
+Running on 1 core
+Trimming 2 adapters with at most 10.0% errors in paired-end mode ...
+Finished in 498.04 s (57 us/read; 1.06 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          8,800,000
+  Read 1 with adapter:                   1,076 (0.0%)
+  Read 2 with adapter:                  63,543 (0.7%)
+Pairs that were too short:              54,897 (0.6%)
+Pairs written (passing filters):     8,745,103 (99.4%)
+
+Total basepairs processed: 2,200,000,000 bp
+  Read 1: 1,100,000,000 bp
+  Read 2: 1,100,000,000 bp
+Quality-trimmed:             246,400,000 bp (11.2%)
+  Read 1:   123,200,000 bp
+  Read 2:   123,200,000 bp
+Total written (filtered):  1,941,316,051 bp (88.2%)
+  Read 1:   970,696,181 bp
+  Read 2:   970,619,870 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: AGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT; Type: regular 3'; Length: 59; Trimmed: 1076 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5
+
+Bases preceding removed adapters:
+  A: 35.9%
+  C: 21.2%
+  G: 23.3%
+  T: 19.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	415	33.6	0	0 415
+10	479	8.4	1	8 471
+11	157	2.1	1	2 155
+12	20	0.5	1	0 20
+13	3	0.1	1	0 3
+14	2	0.0	1	0 2
+
+=== Second read: Adapter 2 ===
+
+Sequence: AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCT; Type: regular 3'; Length: 59; Trimmed: 63543 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5
+
+Bases preceding removed adapters:
+  A: 30.8%
+  C: 19.1%
+  G: 19.4%
+  T: 30.5%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	2915	33.6	0	0 2915
+10	2988	8.4	1	2549 439
+11	2768	2.1	1	2461 307
+12	2636	0.5	1	2440 196
+13	2427	0.1	1	2272 155
+14	2275	0.0	1	2107 168
+15	2248	0.0	1	2103 145
+16	2175	0.0	1	2034 141
+17	1937	0.0	1	1796 141
+18	1974	0.0	1	1843 125 6
+19	1829	0.0	1	1708 116 5
+20	1727	0.0	2	1590 130 7
+21	1650	0.0	2	1503 131 16
+22	1610	0.0	2	1487 118 5
+23	1598	0.0	2	1481 110 7
+24	1480	0.0	2	1351 128 1
+25	1430	0.0	2	1310 110 10
+26	1342	0.0	2	1228 103 11
+27	1243	0.0	2	1153 80 10
+28	1251	0.0	2	1159 81 5 6
+29	1191	0.0	2	1091 90 6 4
+30	1200	0.0	3	1079 111 9 1
+31	1150	0.0	3	1052 89 9
+32	1015	0.0	3	934 62 13 6
+33	990	0.0	3	901 81 8
+34	967	0.0	3	884 72 4 7
+35	922	0.0	3	845 69 5 3
+36	840	0.0	3	767 54 4 2 13
+37	830	0.0	3	758 67 3 2
+38	816	0.0	3	728 79 9
+39	690	0.0	3	612 71 6 0 1
+40	785	0.0	4	722 57 5 0 1
+41	705	0.0	4	649 36 9 8 3
+42	625	0.0	4	565 51 5 3 1
+43	587	0.0	4	540 35 4 0 8
+44	587	0.0	4	538 39 7 3
+45	538	0.0	4	486 48 4
+46	541	0.0	4	496 41 1 0 0 3
+47	512	0.0	4	464 37 0 7 4
+48	455	0.0	4	416 36 1 0 2
+49	430	0.0	4	379 44 5 2
+50	419	0.0	5	372 43 4
+51	365	0.0	5	325 36 4
+52	369	0.0	5	337 26 1 3 0 2
+53	376	0.0	5	342 28 3 2 1
+54	349	0.0	5	315 27 2 1 0 4
+55	314	0.0	5	281 28 1 4
+56	277	0.0	5	253 19 4 1
+57	259	0.0	5	232 25 2
+58	265	0.0	5	239 24 1 1
+59	260	0.0	5	232 26 2
+60	282	0.0	5	258 22 2
+61	226	0.0	5	206 20
+62	221	0.0	5	203 17 1
+63	195	0.0	5	180 14 1
+64	221	0.0	5	206 15
+65	195	0.0	5	180 14 1
+66	173	0.0	5	165 7 1
+67	179	0.0	5	171 8
+68	145	0.0	5	140 5
+69	181	0.0	5	173 8
+70	137	0.0	5	133 4
+71	129	0.0	5	123 6
+72	117	0.0	5	107 10
+73	125	0.0	5	122 3
+74	119	0.0	5	114 5
+75	108	0.0	5	105 3
+76	90	0.0	5	88 2
+77	87	0.0	5	86 1
+78	96	0.0	5	96
+79	94	0.0	5	94
+80	76	0.0	5	75 1
+81	84	0.0	5	83 1
+82	72	0.0	5	71 1
+83	76	0.0	5	75 1
+84	73	0.0	5	72 1
+85	57	0.0	5	56 1
+86	57	0.0	5	57
+87	48	0.0	5	48
+88	51	0.0	5	51
+89	54	0.0	5	54
+90	48	0.0	5	47 1
+91	45	0.0	5	45
+92	34	0.0	5	34
+93	39	0.0	5	39
+94	38	0.0	5	37 1
+95	30	0.0	5	30
+96	29	0.0	5	29
+97	32	0.0	5	32
+98	27	0.0	5	27
+99	23	0.0	5	23
+100	19	0.0	5	19
+101	15	0.0	5	15
+102	12	0.0	5	12
+103	22	0.0	5	22
+104	17	0.0	5	17
+105	11	0.0	5	11
+106	11	0.0	5	11
+107	21	0.0	5	21
+108	16	0.0	5	16
+109	18	0.0	5	18
+110	13	0.0	5	13
+111	123	0.0	5	123
+
